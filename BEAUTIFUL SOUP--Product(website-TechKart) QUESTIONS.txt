@@ -1,0 +1,178 @@
+Level 1: Basic Extraction
+Q1. Extract the title of the webpage.
+
+Expected Output
+
+TechKart - Static Product Website
+
+
+Q2. Extract the main heading of the website.
+TechKart
+
+
+Q3. Extract all navigation menu names.
+Home
+Products
+About
+Contact
+Amazon
+
+
+Q4. Extract all hyperlinks (href) present in the navbar.
+
+Output:
+
+#home
+#products
+#about
+#contact
+https://www.amazon.in
+
+
+
+Level 2: Product Information
+Q5. Extract names of all products.
+
+Output:
+
+Wireless Mouse
+Mechanical Keyboard
+Bluetooth Speaker
+Smart Watch
+
+
+Q6. Extract prices of all products.
+
+Output:
+
+₹799
+₹2499
+₹1599
+₹3499
+
+
+
+
+Q7. Extract ratings of all products.
+
+Output:
+
+4.3 ★
+4.7 ★
+4.1 ★
+4.5 ★
+
+
+
+
+Q8. Extract seller names.
+
+Output:
+
+TechWorld
+KeyMaster
+SoundHub
+GadgetZone
+
+
+
+
+
+
+Q9. Extract stock status of all products.
+
+Output:
+
+In Stock
+In Stock
+Out of Stock
+In Stock
+
+
+
+Level 3: Working with Attributes
+Q10. Extract all Product IDs.
+
+Output:
+
+101
+102
+103
+104
+
+Hint:
+
+product['data-id']
+
+
+
+
+
+Q11. Extract image URLs.
+
+Hint:
+
+img['src']
+
+
+
+Q12. Extract "View Deal" links.
+
+Hint:
+
+card.find('a')['href']
+
+
+
+Level 4: Filtering Questions
+Q13. Display only products that are "In Stock".
+
+Expected:
+
+Wireless Mouse
+Mechanical Keyboard
+Smart Watch
+
+
+
+Q14. Display only products whose category is Accessories.
+
+Expected:
+
+Wireless Mouse
+Mechanical Keyboard
+
+
+
+Q15. Find the most expensive product.
+
+Expected:
+
+Smart Watch
+₹3499
+
+
+
+
+Q16. Find the cheapest product.
+
+Expected:
+
+Wireless Mouse
+₹799
+
+
+
+
+Q17. Find product with highest rating.
+
+Expected:
+
+Mechanical Keyboard
+4.7
+Level 5: DataFrame Creation
+
+
+
+Q.18
+Create a DataFrame containing
